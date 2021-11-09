@@ -1364,7 +1364,7 @@ hr{
   .tarif__title{
     font-size: 30px;
     margin-bottom: 0;
-    padding-top: 15px;
+    padding-top: 5px;
   }
   .tarif__item{
     font-size: 18px;
@@ -1402,6 +1402,9 @@ hr{
   .tarif__img-1,.tarif__img-2{
     height: 315px;
   }
+  .tarif__btn{
+    margin: 20px auto 0;
+  }
 }
 @media (max-width:425px){
   .header__box{
@@ -1424,7 +1427,7 @@ hr{
     height: 460px;
   }
   .tarif__wraper{
-    padding: 19px 30px;
+    padding: 0px 30px;
   }
   
   .about1__content{
