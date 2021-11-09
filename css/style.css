@@ -137,12 +137,12 @@ path:hover{
   
 }
 .button{
-  padding: 10px 45px;
+  padding: 10px 50px;
   background-color: #da0191; 
   color: #fff;
   border-radius: 5px;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 25px;
   
 
   
@@ -351,7 +351,7 @@ ul.program__list{
 .program__item span{
   font-size: 25px;
   display: block;
-  font-weight: 300;
+  font-weight: 700;
 }
 .program__item::before{
   position: absolute;
@@ -520,15 +520,16 @@ ul.tarif__list{
 }
 .tarif__btn{
   display: block; 
-  max-width: 241px;
-  height: 47px;
+  max-width: 310px;
+  height: 55px;
   margin: 50px auto 0;
   text-align: center;
-  padding: 10px 45px;background-color: #da0191;
+  padding: 18px 45px;
+  background-color: #da0191;
   color: #fff;
   border-radius: 5px;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 25px;
   
 }
 .popup {
