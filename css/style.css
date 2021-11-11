@@ -373,14 +373,27 @@ ul.program__list{
   
 }
 .tarif{
-  background-image: url(../images/header-bg.png);
+  background-image: url(../images/tarif-bg.jpg);
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   color: #fff;
   margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
 
+}
+.tarif::before{
+  position: absolute;
+  content: "";
+  background-color: rgba(0,0,0,.5);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.5;
+  z-index: 2;
 }
 .tarif__img-2 {
   display: none;
@@ -396,9 +409,9 @@ ul.program__list{
   
 }
 .tarif__inner{
- 
+  position: relative;
   margin-bottom: 50px;
-  
+  z-index: 3;
   
 }
 .tarif__wraper{
@@ -437,7 +450,7 @@ ul.program__list{
 
 }
 ul.tarif__list{
-  margin-top: 40px;
+  margin-top: 15px;
 }
 .tarif__item{
   margin-bottom: 20px;
@@ -1372,7 +1385,7 @@ hr{
   }
   .tarif__item span{
     margin-bottom: 0px;
-    line-height: 7px;
+    margin-top: 0;
   }
   .chack-title{
     font-size: 19px;
@@ -1405,6 +1418,9 @@ hr{
   }
   .tarif__btn{
     margin: 20px auto 0;
+    max-width: 310px;
+    font-size: 23px;
+
   }
 }
 @media (max-width:425px){
