@@ -306,7 +306,7 @@ font-size: 23px;
 
 }
 .reviews__item{
-  border: 2px solid #630042;
+  border: 2px solid #7e0054;
   border-radius: 15px;
   height: 300px ;
   text-align: center;
@@ -332,6 +332,9 @@ font-size: 23px;
   margin: 50px auto 0 auto;
   max-width: 325px;
   position: relative;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 .reviews__item-text::before{
   position: absolute;
